@@ -15,7 +15,7 @@ function bubbleSort(arr) {
         let temp = sortedArr[j];
         sortedArr[j] = sortedArr[j + 1];
         sortedArr[j + 1] = temp;
-        console.log("j: ", j); // this will not be loggesd if the array is already sorted
+        console.log("j: ", j); // this will not be logged if the array is already sorted
         isSwapped = true; // Set flag to true if a swap occurred
       }
     }
