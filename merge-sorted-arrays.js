@@ -30,9 +30,9 @@ console.log(mergeSortedArrays(arr1, arr2)); // Output: [1, 2, 3, 4, 5, 6]
 // In-Place merge sorted arrays in non decreasing order
 
 function mergeSortedArraysInPlace(arr1, arr2) {
-  let p1 = arr1.length - 1; // index of arr1
-  let p2 = arr2.length - 1; // index of arr2
-  let pMerged = arr1.length + arr2.length - 1; // index for merged array
+  let p1 = arr1.length - 1; // pointer for arr1
+  let p2 = arr2.length - 1; // pointer for arr2
+  let pMerged = arr1.length + arr2.length - 1; // pointer for merged array (starting from the end)
 
   if (!Array.isArray(arr1) || !Array.isArray(arr2)) return [];
 
