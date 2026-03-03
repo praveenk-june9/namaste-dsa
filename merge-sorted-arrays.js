@@ -16,7 +16,7 @@ function mergeSortedArrays(arr1, arr2) {
       p2++;
     }
   }
-
+  // If there are remaining elements in arr1 or arr2, add them to the merged array
   return [...mergedArray, ...arr1.slice(p1), ...arr2.slice(p2)];
 }
 
